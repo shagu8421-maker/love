@@ -1,292 +1,280 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>For My Beautiful Wife ❤️</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+  <title>For My Love ❤️ Shagufa</title>
 
-<style>
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-}
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-body{
-    font-family:Poppins,sans-serif;
-    background:linear-gradient(135deg,#ff9a9e,#fad0c4,#fad0c4);
-    overflow-x:hidden;
-    color:white;
-}
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
 
-.hero{
-    height:100vh;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    text-align:center;
-    flex-direction:column;
-    padding:20px;
-}
-
-h1{
-    font-family:'Dancing Script',cursive;
-    font-size:70px;
-    margin-bottom:15px;
-    animation:fadeIn 2s;
-}
-
-h2{
-    font-size:28px;
-    margin-bottom:20px;
-}
-
-#typing{
-    font-size:22px;
-    max-width:850px;
-    line-height:1.8;
-    min-height:140px;
-}
-
-button{
-    margin-top:40px;
-    padding:15px 35px;
-    border:none;
-    border-radius:40px;
-    background:white;
-    color:#ff4b6e;
-    font-size:18px;
-    cursor:pointer;
-    transition:.3s;
-}
-
-button:hover{
-    transform:scale(1.1);
-}
-
-.section{
-    padding:70px 20px;
-    text-align:center;
-}
-
-.card{
-    max-width:900px;
-    margin:auto;
-    background:rgba(255,255,255,.18);
-    backdrop-filter:blur(10px);
-    padding:40px;
-    border-radius:20px;
-    box-shadow:0 10px 30px rgba(0,0,0,.2);
-}
-
-.card h3{
-    font-size:40px;
-    margin-bottom:20px;
-    font-family:'Dancing Script',cursive;
-}
-
-.card p{
-    font-size:20px;
-    line-height:1.8;
-}
-
-.gallery{
-    display:flex;
-    justify-content:center;
-    flex-wrap:wrap;
-    gap:20px;
-    margin-top:40px;
-}
-
-.gallery img{
-    width:250px;
-    height:300px;
-    object-fit:cover;
-    border-radius:20px;
-    border:4px solid white;
-    transition:.4s;
-}
-
-.gallery img:hover{
-    transform:scale(1.05);
-}
-
-footer{
-    padding:40px;
-    text-align:center;
-    font-size:22px;
-}
-
-.heart{
-    position:fixed;
-    color:red;
-    font-size:20px;
-    animation:fall linear infinite;
-}
-
-@keyframes fall{
-    0%{
-        transform:translateY(-100px);
-        opacity:1;
-    }
-    100%{
-        transform:translateY(110vh);
-        opacity:0;
-    }
-}
-
-@keyframes fadeIn{
-    from{
-        opacity:0;
-        transform:translateY(30px);
-    }
-    to{
-        opacity:1;
-        transform:translateY(0);
-    }
-}
-</style>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<div class="hero">
+  <!-- Animated Background -->
+  <div class="stars"></div>
+  <div class="hearts"></div>
 
-<h1>❤️ Shagufa Aftab Khan ❤️</h1>
+  <!-- Music -->
+  <audio id="bgMusic" loop>
+    <source src="music.mp3" type="audio/mpeg">
+  </audio>
 
-<h2>My Beautiful Wife</h2>
+  <!-- Music Button -->
+  <button id="musicBtn">🎵 Play Music</button>
 
-<div id="typing"></div>
+  <!-- Hero -->
+  <section class="hero">
 
-<button onclick="showLove()">Click Here ❤️</button>
+    <div class="glass">
 
-</div>
+      <h3>❤️ To My Beautiful Wife ❤️</h3>
 
-<section class="section">
+      <h1>Shagufa</h1>
 
-<div class="card">
+      <div id="typing"></div>
 
-<h3>To My Love</h3>
+      <p>
 
-<p>
-Every day with you is a beautiful blessing.
+        My Dearest Shagufa,
 
-Your smile brightens my darkest days,
-your kindness inspires me,
-and your love gives me strength.
+        Last night I asked you many questions.
 
-Thank you for always standing beside me.
+        If my words made you upset,
 
-You are not just my wife,
-you are my best friend,
-my happiness,
-my peace,
-and my forever.
+        I am truly sorry.
 
-I promise to love, respect,
-and cherish you for every moment of our lives.
+        You are the best thing that has ever happened to me.
 
-❤️ I Love You Forever ❤️
-</p>
+        I never want to hurt you.
 
-</div>
+        Your smile is my happiness.
 
-</section>
+        Your love is my strength.
 
-<section class="section">
+      </p>
 
-<h2>Our Beautiful Memories</h2>
+      <a href="#letter" class="btn">
+        Read My Heart ❤️
+      </a>
 
-<div class="gallery">
+    </div>
 
-<!-- Replace these images with your own -->
-<img src="photo1.jpg">
-<img src="photo2.jpg">
-<img src="photo3.jpg">
+  </section>
 
-</div>
+  <!-- Love Counter -->
 
-</section>
+  <section class="counter">
 
-<footer>
+    <h2>❤️ Every Second I Love You More ❤️</h2>
 
-Made with ❤️ by Your Loving Husband
+    <div id="counter">
+      Loading...
+    </div>
 
-</footer>
+  </section>
 
-<!-- Optional Music -->
-<!-- Replace love.mp3 with your own song -->
-<audio autoplay loop>
-<source src="love.mp3" type="audio/mpeg">
-</audio>
+  <!-- Letter -->
 
-<script>
+  <section id="letter" class="letter">
 
-const text=`Every heartbeat reminds me how lucky I am to have you, Shagufa Aftab Khan.
+    <div class="glass">
 
-You are the most beautiful chapter of my life.
+      <h2>💌 My Letter</h2>
 
-No matter where life takes us,
-I will always choose you,
-today,
-tomorrow,
-and forever.
+      <p>
 
-❤️`;
+        Dear Shagufa,
 
-let i=0;
+        Thank you for being my partner,
+        my best friend,
+        my biggest support,
+        and the love of my life.
 
-function type(){
+        I know I am not perfect.
 
-if(i<text.length){
+        Sometimes I make mistakes.
 
-document.getElementById("typing").innerHTML+=text.charAt(i);
+        Sometimes I speak too much.
 
-i++;
+        But one thing will never change...
 
-setTimeout(type,45);
+        My love for you.
 
-}
+        I promise to understand you better.
 
-}
+        I promise to respect your feelings.
 
-type();
+        I promise to stand beside you forever.
 
-function showLove(){
+        I Love You ❤️
 
-alert("❤️ I Love You, Shagufa Aftab Khan ❤️");
+      </p>
 
-}
+    </div>
 
-function hearts(){
+  </section>
 
-const heart=document.createElement("div");
+  <!-- Gallery -->
 
-heart.className="heart";
+  <section class="gallery">
 
-heart.innerHTML="❤️";
+    <h2>📸 Our Beautiful Memories</h2>
 
-heart.style.left=Math.random()*100+"vw";
+    <div class="gallery-grid">
 
-heart.style.fontSize=(20+Math.random()*30)+"px";
+      <div class="photo">
+        <img src="images/photo1.jpg" alt="">
+      </div>
 
-heart.style.animationDuration=(3+Math.random()*5)+"s";
+      <div class="photo">
+        <img src="images/photo2.jpg" alt="">
+      </div>
 
-document.body.appendChild(heart);
+      <div class="photo">
+        <img src="images/photo3.jpg" alt="">
+      </div>
 
-setTimeout(()=>{
+      <div class="photo">
+        <img src="images/photo4.jpg" alt="">
+      </div>
 
-heart.remove();
+      <div class="photo">
+        <img src="images/photo5.jpg" alt="">
+      </div>
 
-},7000);
+      <div class="photo">
+        <img src="images/photo6.jpg" alt="">
+      </div>
 
-}
+    </div>
 
-setInterval(hearts,250);
+  </section>
 
-</script>
+  <!-- Reasons -->
+
+  <section class="love">
+
+    <h2>❤️ Reasons I Love You ❤️</h2>
+
+    <div class="cards">
+
+      <div class="card">😊 Your Smile</div>
+
+      <div class="card">❤️ Your Kind Heart</div>
+
+      <div class="card">🌹 Your Love</div>
+
+      <div class="card">✨ Your Eyes</div>
+
+      <div class="card">🥰 Your Care</div>
+
+      <div class="card">🤗 Your Support</div>
+
+      <div class="card">💖 Your Pure Soul</div>
+
+      <div class="card">🌸 Your Sweet Nature</div>
+
+      <div class="card">🎵 Your Voice</div>
+
+      <div class="card">❤️ Because You Are You</div>
+
+    </div>
+
+  </section>
+
+  <!-- Timeline -->
+
+  <section class="timeline">
+
+    <h2>💍 Our Journey</h2>
+
+    <div class="line">
+
+      <div class="event">
+        ❤️ We Met
+      </div>
+
+      <div class="event">
+        🌹 We Fell In Love
+      </div>
+
+      <div class="event">
+        💍 We Got Married
+      </div>
+
+      <div class="event">
+        ♾️ Forever Together
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Surprise -->
+
+  <section class="surprise">
+
+    <button id="surpriseBtn">
+
+      Click Here ❤️
+
+    </button>
+
+    <div id="popup">
+
+      <h2>
+
+        ❤️ SHAGUFA ❤️
+
+      </h2>
+
+      <p>
+
+        Thank You
+
+        For Loving Me
+
+        Thank You
+
+        For Choosing Me
+
+        I Love You Forever ❤️
+
+      </p>
+
+      <span class="close">×</span>
+
+    </div>
+
+  </section>
+
+  <!-- Footer -->
+
+  <footer>
+
+    ❤️ Forever Yours ❤️
+
+    <br><br>
+
+    Made With Love By
+
+    <strong>
+
+      Aman Kumar Singh
+
+    </strong>
+
+  </footer>
+
+  <script src="script.js"></script>
 
 </body>
+
 </html>

@@ -7,7 +7,7 @@
 const typing = document.getElementById("typing");
 
 const text =
-  "Every heartbeat whispers your name, Shagufa ❤️";
+  "Every heartbeat whispers aman, Shagufa ❤️";
 
 let index = 0;
 
